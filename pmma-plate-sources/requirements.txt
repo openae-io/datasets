@@ -1,0 +1,8 @@
+jupyterlab
+matplotlib
+openae~=0.1.0
+pandas~=2.2
+scikit-learn~=1.6
+seaborn
+skl2onnx~=1.18
+vallenae~=0.11.0

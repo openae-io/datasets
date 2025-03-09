@@ -10,9 +10,9 @@ It is intended for studying and experimenting with data-based approaches for AE 
 
 The PMMA plate is excited using three distinct AE sources:
 
-1. Pencil lead breaks
-2. Salt trickle
-3. Pulsing by the measurement system
+1. Pencil-lead breaks (Hsu-Nielsen source with 0.5 mm leads)
+2. Pulsing by the AMSY-6 acoustic emission measurement system with 30 Vpp
+3. Salt trickling from a salt shaker, positioned approximately 20 cm away
 
 ![Measurement setup](setup.png)
 
@@ -61,13 +61,18 @@ You may want to use the Python library [vallenae](https://github.com/vallen-syst
 
 | Link                            | Source             | Hits |
 | ------------------------------- | ------------------ | ---- |
-| [plbs.pridb]<br/>[plbs.tradb]   | Pencil leak breaks | 266  |
-| [salt.pridb]<br/>[salt.tradb]   | Salt trickle       | 282  |
+| [plbs.pridb]<br/>[plbs.tradb]   | Pencil-lead breaks | 266  |
 | [pulse.pridb]<br/>[pulse.tradb] | Pulsing            | 292  |
+| [salt.pridb]<br/>[salt.tradb]   | Salt trickling     | 282  |
 
 [plbs.pridb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/plbs.pridb
 [plbs.tradb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/plbs.tradb
-[salt.pridb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/salt.pridb
-[salt.tradb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/salt.tradb
 [pulse.pridb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/pulse.pridb
 [pulse.tradb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/pulse.tradb
+[salt.pridb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/salt.pridb
+[salt.tradb]: https://filetransfer.vallen.de/openae/datasets/pmma-plate-sources/salt.tradb
+
+## Examples
+
+- [classifier-openae.ipynb](classifier-openae.ipynb): SVM classifier trained with OpenAE features
+- [classifier-standard.ipynb](classifier-standard.ipynb): SVM classifier trained with standard AE features
