@@ -74,5 +74,5 @@ You may want to use the Python library [vallenae](https://github.com/vallen-syst
 
 ## Examples
 
-- [classifier-openae.ipynb](classifier-openae.ipynb): SVM classifier trained with OpenAE features
-- [classifier-standard.ipynb](classifier-standard.ipynb): SVM classifier trained with standard AE features
+- [classifier-openae.ipynb](https://github.com/openae-io/datasets/blob/main/pmma-plate-sources/classifier-openae.ipynb): SVM classifier trained with OpenAE features
+- [classifier-standard.ipynb](https://github.com/openae-io/datasets/blob/main/pmma-plate-sources/classifier-standard.ipynb): SVM classifier trained with standard AE features
