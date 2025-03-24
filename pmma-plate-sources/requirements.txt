@@ -1,3 +1,7 @@
+# openae is not yet available on PyPI, so we need to install it from the Test PyPI
+# see: https://github.com/pypi/support/issues/5968
+--extra-index-url https://test.pypi.org/simple/
+
 jupyterlab
 matplotlib
 openae~=0.1.0
